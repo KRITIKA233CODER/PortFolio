@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile2.png';
+import profileImage from '../../assets/company_logo/8b6c69ba-9a27-4f11-9a9d-7837ca90bf89.jpeg.jpg';
 
 const About = () => {
   return (
@@ -18,7 +18,7 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Tarun Kaushik
+            Kritika Niranjan Dangi
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
@@ -26,7 +26,7 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'Fullstack Developer',
-                'App Developer',
+                'Software Engineer',
                 'UI/UX Designer',
                 'Coder',
               ]}
@@ -75,7 +75,7 @@ const About = () => {
           >
             <img
               src={profileImage}
-              alt="Tarun Kaushik"
+              alt="kritika"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
